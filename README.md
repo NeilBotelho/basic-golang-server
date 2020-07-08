@@ -9,6 +9,9 @@ The plan for this repo is to setup a personal website using go as a backend and 
 
 (and possibly a blog? this hasn't really been well thought out ;) )
 
+Progress will be updated in [PROGRESS.md](https://github.com/NeilBotelho/golang-webapp/blob/master/PROGRESS.md)
+
+
 ## Deployment
 Initially I had planned to deploy the app to Heroku(mainly because its free) from the command line but Heroku doesn't support golang very well. But I found a workaround where if you put a requirements.txt file in the repo you can trick Heroku into thinking it's a python project. Then you just need to get Heroku to run the compiled binaries. 
 
