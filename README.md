@@ -1,5 +1,5 @@
 # Basic Golang Webapp
-
+![build status](https://api.travis-ci.com/NeilBotelho/golang-webapp.svg?branch=master)
 ## The Plan
 The plan for this repo is to setup a personal website using go as a backend and server. The website will(hopefully) have the following sections:
 1. A Homepage
