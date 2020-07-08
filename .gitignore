@@ -1,0 +1,4 @@
+#Don't track
+bin/
+requirements.txt
+Procfile
