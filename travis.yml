@@ -4,3 +4,9 @@ go:
 branches:
   only:
     - master
+deploy:
+  provider: heroku
+  api_key:
+     secure: "QhwPbIi6i/P5oD6FoRxQW3rjiudxCdUm+xk2iJXa858Kit78s9uverCgNoZzlwayWm7MrGe9jfZywgVIRrdZOTFDzPwV76DP70oBCZBeLQTHjyLiQ6vYaBJP2uo7RoYYVlSB/Ayi5NY+TnNK6HRcbXKYfQIg9fMYKZvLNiU/ZJIRLoFzJddSeJxh/dsdrbrrsEjDvpbP9wysl4AyQ1ag+4v08cokZ5SRzO19UT3XDfNf3SfbJIbBQZBvYxf9mJuLAFKNHAVp6P/5RVi0yjW0gUTi1N1P2HSbVMti6fzngrAqn5xUFd6yMVoUu/KJhh9DDxanGqmkGzZg6NafPSuACWgh8XsIkAzdVOYdg4zREre/1MzUEuqXF93CbINliTzLRoG1z5pPQO40SB4xX1j3aW+WGPyJvE9PONtDXaLBTv3basGW/EkQLjV+KLvEChmXofFT8qXcE1523eQJa5afMt6DKO6XmMm7kwCMhRoJNT+6+yzB+RsuxFnnFPlTNx+GMZfdV9E1heTVHqjjub7/FxmDlNdnu0zOHR5/x9SGqQ4RUj7JxZ6ZLZ7XncIXPuBkrIQKOrKWKpwmwS4QnnNAjOccv6zbNQbyr7cixlEPsgGc2jKnHH/UkyhbsVBDHtLMS7ogA4oMn/M1SIMYkBVTCWl5aFKVkMBFQDVYZXKxONU="
+  app:
+    master: website-neilb
