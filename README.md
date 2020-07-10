@@ -1,7 +1,7 @@
-# Basic Golang Webapp
+# Personal Website
 ![build status](https://api.travis-ci.com/NeilBotelho/golang-webapp.svg?branch=master)
 ## The Plan
-The plan for this repo is to setup a personal website using go as a backend and server. The website will(hopefully) have the following sections:
+The plan for this repo is to setup a personal website using go as a backend(for apis and data) and server. The website will(hopefully) have the following sections:
 1. A Homepage
 2. A Projects section
 3. A Demo section
@@ -9,7 +9,7 @@ The plan for this repo is to setup a personal website using go as a backend and 
 
 (and possibly a blog? this hasn't really been well thought out ;) )
 
-Progress will be updated in [PROGRESS.md](https://github.com/NeilBotelho/golang-webapp/blob/master/PROGRESS.md)
+Progress will be updated in [PROGRESS.md](https://github.com/NeilBotelho/personal-website/blob/master/PROGRESS.md)
 
 
 ## Deployment
@@ -20,7 +20,7 @@ To orchestrate all this in a non-messy way I setup a Travis-CI pipeline to test 
 ## Development:
 
 ### Requirements:
-The only real requirement to develop or run this server locally is having golang installed.
+Currently the only real requirement to develop or run this server locally is having golang installed.
 
 The tests that are written in bash and the make file requires linux but if you have windows with go installed you can install it.
 
